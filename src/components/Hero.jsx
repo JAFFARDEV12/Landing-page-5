@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-20 overflow-hidden bg-gradient-to-br from-gamma-blue via-gamma-dust to-aqua-marine">
       <div className="absolute inset-0 bg-black/10"></div>
-      <div className="max-w-7xl mx-auto px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-8 relative top-10 z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight">
             Next-Generation
