@@ -31,11 +31,7 @@ const Partners = () => {
               key={index} 
               className="flex items-center justify-center p-4 bg-gray-light rounded-lg hover:bg-white hover:shadow-md transition-all duration-300"
             >
-              <img 
-                src={`/Partners/${logo}`}
-                alt={`Partner ${index + 1}`}
-                className="max-w-full max-h-12 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-              />
+             <a>{`Partner ${index + 1}`}</a>
             </div>
           ))}
         </div>
